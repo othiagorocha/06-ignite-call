@@ -1,7 +1,10 @@
+import { Calendar } from "../../../../../../components/Calendar";
+import { Container } from "./styles";
+
 export function CalendarStep() {
   return (
-    <div>
-      <div>CalendarStep</div>
-    </div>
+    <Container>
+      <Calendar />
+    </Container>
   );
 }
